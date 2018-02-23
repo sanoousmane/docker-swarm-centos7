@@ -1,0 +1,5 @@
+---
+- hosts: dockerswarm
+  remote_user: root
+  roles:
+    - docker-swarm-centos7
